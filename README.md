@@ -95,6 +95,7 @@ public class MainActivity extends AppCompatActivity {
 </LinearLayout>
 ```
 ## DatabaseHelper.java
+```
 package com.example.sqlitedatebase;
 
 import android.content.Context;
@@ -124,4 +125,8 @@ public class MyDatabaseHelper extends SQLiteOpenHelper {
         onCreate(db);
     }
 }
+```
+## build.gradle
+```
+implementation 'androidx.sqlite:sqlite:2.2.0'
 ```
